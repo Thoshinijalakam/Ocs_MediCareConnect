@@ -1,7 +1,7 @@
 import "./BookAppointment.css";
 import { useEffect, useState } from "react";
 import { useAuth } from "../auth/useAuth";
-import API from "../api/api";
+import API from "../api/Api";
 
 export default function ViewBookedAppointments() {
 

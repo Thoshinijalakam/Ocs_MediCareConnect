@@ -1,5 +1,5 @@
 import "./BookAppointment.css";
-import API from "../api/api";
+import API from "../api/Api";
 import { useEffect, useState } from "react";
 import { useAuthFromContext } from "../auth/useAuthFromContext";
 

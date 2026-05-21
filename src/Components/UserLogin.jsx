@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import medicare from "../assets/medicare.jpeg";
 import { useAuth } from "../auth/useAuth";
-import API from "../api/api";
+import API from "../api/Api";
 
 export default function UserLogin() {
   const navigate = useNavigate();
