@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./ViewDoctors.css";
 import { useNavigate } from "react-router-dom";
-import API from "../api/Api";
+import API from "../Api/Api";
 
 export default function ViewDoctors() {
   const navigate = useNavigate();

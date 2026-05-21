@@ -1,6 +1,6 @@
 import "./AddDoctor.css";
 import { useEffect, useState } from "react";
-import API from "../api/Api";
+import API from "../Api/Api";
 import { useAuth } from "../auth/useAuth";
 
 export default function RemoveDoctor() {

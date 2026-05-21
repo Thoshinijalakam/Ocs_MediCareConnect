@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import { useNavigate } from "react-router-dom";
-import API from "../api/Api";
+import API from "../Api/Api";
 
 export default function SignUp() {
 
