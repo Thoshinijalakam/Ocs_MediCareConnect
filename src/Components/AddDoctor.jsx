@@ -46,7 +46,7 @@ export default function AddDoctor() {
         experience: experience.trim(),
       };
 
-      await API.post("/api/doctors", doctorData);
+      await API.post("/doctors", doctorData);
 
       alert("Doctor added successfully");
 

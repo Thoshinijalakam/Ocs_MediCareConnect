@@ -9,7 +9,7 @@ export default function ViewDoctors() {
 
   const fetchDoctors = async () => {
     try {
-      const response = await API.get("/api/doctors");
+      const response = await API.get("/doctors");
       setDoctors(response.data);
     } catch (error) {
       console.log(error);

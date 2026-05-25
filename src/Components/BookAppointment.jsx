@@ -70,7 +70,7 @@ export default function BookAppointment() {
       };
 
       await API.post(
-        `/api/appointments/${userId}/${selectedDoctor}`,
+        `/appointments/${userId}/${selectedDoctor}`,
         appointmentData
       );
 

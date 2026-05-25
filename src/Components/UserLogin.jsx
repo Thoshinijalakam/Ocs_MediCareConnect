@@ -19,7 +19,7 @@ export default function UserLogin() {
     }
 
     try {
-      const response = await API.post("/api/users/login", {
+      const response = await API.post("/users/login", {
         email: emailOrMobile,
         password: password,
       });

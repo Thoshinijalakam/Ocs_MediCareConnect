@@ -59,7 +59,7 @@ export default function SignUp() {
       };
 
       const response = await API.post(
-        "/api/auth/register",
+        "/auth/register",
         registerData
       );
 

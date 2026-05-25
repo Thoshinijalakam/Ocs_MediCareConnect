@@ -25,7 +25,7 @@ export default function ViewBookedAppointments() {
 
     try {
 
-      const response = await API.get("/api/appointments");
+      const response = await API.get("/appointments");
 
       setAppointments(response.data);
 
