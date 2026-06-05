@@ -18,7 +18,7 @@ export default function Login() {
 
       <div className="login-buttons">
         <button onClick={() => navigate("/userlogin")}> Login</button>
-        {/* <button onClick={()=>navigate("/adminlogin")}>AdminLogin</button> */}
+        <button onClick={() => navigate("/adminlogin")}>AdminLogin</button>
         <button onClick={() => navigate("/signup")}>Register</button>
         <button onClick={() => navigate('/')}>Continue as Guest</button>
 

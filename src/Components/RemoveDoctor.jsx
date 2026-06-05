@@ -34,7 +34,7 @@ export default function RemoveDoctor() {
     }
 
     try {
-      await API.delete(`/api/doctors/${id}`);
+      await API.delete(`/doctors/${id}`);
 
       alert("Doctor removed successfully");
 
