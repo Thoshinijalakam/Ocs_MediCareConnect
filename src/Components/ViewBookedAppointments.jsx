@@ -10,7 +10,7 @@ export default function ViewBookedAppointments() {
   const [appointments, setAppointments] = useState([]);
   const handleCancelAppointment = async (id) => {
     try {
-      await API.put(`/api/appointments/cancel/${id}`);
+      await API.put(`/appointments/cancel/${id}`);
 
       alert("Appointment cancelled successfully");
 
